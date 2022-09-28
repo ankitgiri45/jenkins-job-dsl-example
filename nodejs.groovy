@@ -11,7 +11,7 @@ job('NodeJS example') {  // name of the and initial tag to start
 	}
 	
 	wrappers {
-		nodejs('nodejs') // this is the name of the NodeJS installation in
+		nodejs('NodeJS') // this is the name of the NodeJS installation in
 				       // Manage Jenkins -> Configure Tools ->NodeJS Installations ->Name
 	}
 	
