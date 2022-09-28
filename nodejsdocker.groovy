@@ -1,4 +1,4 @@
-job('NodeJS example') {  // name of the and initial tag to start
+job('NodeJS Docker example') {  // name of the and initial tag to start
 	scm {  // software configuration manager git
 		git('git@github.com:ankitgiri45/JenkinsDockerNodeJS.git') { node ->
 			node / gitConfigName('ankitgiri45')
