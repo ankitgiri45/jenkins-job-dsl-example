@@ -16,6 +16,6 @@ job('NodeJS example') {  // name of the and initial tag to start
 	}
 	
 	steps { // build steps
-		shell("npm install")
+		shell("npm install && npm start")
 	}
 }
